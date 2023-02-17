@@ -39,16 +39,6 @@ function Search() {
             keys?.some((key) => item[key]?.toLowerCase().includes(query?.toLowerCase())) 
     )}
 
-    // const search1 = () => {
-    //     if(query !== ""){
-    //         return data;
-    //     }else{
-    //         return dataSearch.filter((item) =>
-    //             keys.some((key) => item[key].toLowerCase().includes(query.toLowerCase()))
-    //         )
-    //     }
-    // }
-
     const numberData = search(data)
 
     useEffect(() => {
