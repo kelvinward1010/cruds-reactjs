@@ -1,0 +1,15 @@
+.App{
+  margin: 0;
+}
+
+.make-center{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.make-center2{
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
